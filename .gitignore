@@ -120,5 +120,6 @@ dist
 ### Example user template
 
 # IntelliJ project files
-gen
 .idea
+*.iml
+gen
