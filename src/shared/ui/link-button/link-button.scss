@@ -1,0 +1,57 @@
+@import '../../themes/tokens';
+@import '../../themes/mixins/transition';
+
+.link-button {
+  font-family: $sflb-font-family-primary;
+  font-size: $sflb-font-size-text-l;
+  font-weight: $sflb-font-weight-book;
+  line-height: $sflb-line-height-button-primary;
+  @include transition();
+  display: inline-block;
+  padding: $sflb-spacing-link-button-vertical $sflb-spacing-link-button-horizontal;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  border-radius: $sflb-radius-button;
+
+  &_green {
+    color: $sflb-color-text-primary;
+    background-color: $sflb-color-button-green;
+
+    &:focus {
+      background-color: $sflb-color-button-green-focus;
+    }
+
+    &:hover {
+      background-color: $sflb-color-button-green-hover;
+    }
+
+    &:active {
+      background-color: $sflb-color-button-green-active;
+    }
+  }
+
+  &_secondary {
+    color: $sflb-color-text-secondary;
+    border: 1px solid $sflb-color-button-border-secondary;
+    background-color: $sflb-color-button-secondary;
+
+    &:focus {
+      color: $sflb-color-text-primary;
+      border-color: $sflb-color-button-secondary-focus;
+      background-color: $sflb-color-button-secondary-focus;
+    }
+
+    &:hover {
+      color: $sflb-color-text-primary;
+      border-color: $sflb-color-button-secondary-hover;
+      background-color: $sflb-color-button-secondary-hover;
+    }
+
+    &:active {
+      color: $sflb-color-text-primary;
+      border-color: $sflb-color-button-secondary-active;
+      background-color: $sflb-color-button-secondary-active;
+    }
+  }
+}

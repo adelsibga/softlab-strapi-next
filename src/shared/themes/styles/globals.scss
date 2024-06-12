@@ -1,0 +1,16 @@
+@import 'normalize.css';
+@import '../tokens';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $sflb-font-family-primary;
+  font-size: $sflb-font-size-text-l;
+  font-weight: $sflb-font-weight-text-l-light;
+  line-height: $sflb-line-height-text-l;
+  color: $sflb-color-text-primary;
+  background-color: $sflb-color-background-primary;
+  scroll-behavior: smooth;
+}
