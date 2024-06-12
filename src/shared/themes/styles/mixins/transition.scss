@@ -1,5 +1,0 @@
-@import '../tokens';
-
-@mixin transition($property: all) {
-  transition: $property $sflb-transition-time-primary $sflb-transition-timing-function-primary;
-}
