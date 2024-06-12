@@ -32,6 +32,20 @@ $sflb-spacing-block-l-bottom: 80px;
 $sflb-spacing-block-xl-top: 90px;
 $sflb-spacing-block-xl-bottom: 90px;
 
+// Opacity
+$sflb-opacity-5: 0.05;
+$sflb-opacity-10: 0.1;
+$sflb-opacity-20: 0.2;
+$sflb-opacity-30: 0.3;
+$sflb-opacity-40: 0.4;
+$sflb-opacity-50: 0.5;
+$sflb-opacity-60: 0.6;
+$sflb-opacity-70: 0.7;
+$sflb-opacity-80: 0.8;
+$sflb-opacity-90: 0.9;
+$sflb-opacity-full: 1;
+$sflb-opacity-none: 0;
+
 // Background color
 $sflb-color-background-primary: #2b2b2b;
 $sflb-color-background-secondary: #2c2c2c;
@@ -125,119 +139,119 @@ $sflb-font-weight-extra-bold: 800;
 $sflb-font-weight-black: 900;
 
 // Header0
-$sflb-font-size-header0-s: 46px;
-$sflb-line-height-header0-s: 52px;
-$sflb-font-weight-header0-s: 450;
-$sflb-letter-spacing-header0-s: '';
+$sflb-font-size-h0-s: 46px;
+$sflb-line-height-h0-s: 52px;
+$sflb-font-weight-h0-s: 450;
+$sflb-letter-spacing-h0-s: '';
 
-$sflb-font-size-header0-m: 56px;
-$sflb-line-height-header0-m: 66px;
-$sflb-font-weight-header0-m: 450;
-$sflb-letter-spacing-header0-m: '';
+$sflb-font-size-h0-m: 56px;
+$sflb-line-height-h0-m: 66px;
+$sflb-font-weight-h0-m: 450;
+$sflb-letter-spacing-h0-m: '';
 
-$sflb-font-size-header0-l: 60px;
-$sflb-line-height-header0-l: 70px;
-$sflb-font-weight-header0-l: 450;
-$sflb-letter-spacing-header0-l: '';
+$sflb-font-size-h0-l: 60px;
+$sflb-line-height-h0-l: 70px;
+$sflb-font-weight-h0-l: 450;
+$sflb-letter-spacing-h0-l: '';
 
-$sflb-font-size-header0-xl: 64px;
-$sflb-line-height-header0-xl: 74px;
-$sflb-font-weight-header0-xl: 450;
-$sflb-letter-spacing-header0-xl: '';
+$sflb-font-size-h0-xl: 64px;
+$sflb-line-height-h0-xl: 74px;
+$sflb-font-weight-h0-xl: 450;
+$sflb-letter-spacing-h0-xl: '';
 
 // Header1
-$sflb-font-size-header1-s: 34px;
-$sflb-line-height-header1-s: 42px;
-$sflb-font-weight-header1-s: 450;
-$sflb-letter-spacing-header1-s: '';
+$sflb-font-size-h1-s: 34px;
+$sflb-line-height-h1-s: 42px;
+$sflb-font-weight-h1-s: 450;
+$sflb-letter-spacing-h1-s: '';
 
-$sflb-font-size-header1-m: 46px;
-$sflb-line-height-header1-m: 56px;
-$sflb-font-weight-header1-m: 450;
-$sflb-letter-spacing-header1-m: '';
+$sflb-font-size-h1-m: 46px;
+$sflb-line-height-h1-m: 56px;
+$sflb-font-weight-h1-m: 450;
+$sflb-letter-spacing-h1-m: '';
 
-$sflb-font-size-header1-l: 50px;
-$sflb-line-height-header1-l: 66px;
-$sflb-font-weight-header1-l: 450;
-$sflb-letter-spacing-header1-l: '';
+$sflb-font-size-h1-l: 50px;
+$sflb-line-height-h1-l: 66px;
+$sflb-font-weight-h1-l: 450;
+$sflb-letter-spacing-h1-l: '';
 
-$sflb-font-size-header1-xl: 52px;
-$sflb-line-height-header1-xl: 66px;
-$sflb-font-weight-header1-xl: 450;
-$sflb-letter-spacing-header1-xl: '';
+$sflb-font-size-h1-xl: 52px;
+$sflb-line-height-h1-xl: 66px;
+$sflb-font-weight-h1-xl: 450;
+$sflb-letter-spacing-h1-xl: '';
 
 // Header2
-$sflb-font-size-header2-s: 32px;
-$sflb-line-height-header2-s: 36px;
-$sflb-font-weight-header2-s-light: $sflb-font-weight-light;
-$sflb-font-weight-header2-s-book: 450;
-$sflb-letter-spacing-header2-s: '';
+$sflb-font-size-h2-s: 32px;
+$sflb-line-height-h2-s: 36px;
+$sflb-font-weight-h2-s-light: $sflb-font-weight-light;
+$sflb-font-weight-h2-s-book: 450;
+$sflb-letter-spacing-h2-s: '';
 
-$sflb-font-size-header2-m: 36px;
-$sflb-line-height-header2-m: 40px;
-$sflb-font-weight-header2-m-light: $sflb-font-weight-light;
-$sflb-font-weight-header2-m-book: 450;
-$sflb-letter-spacing-header2-m: '';
+$sflb-font-size-h2-m: 36px;
+$sflb-line-height-h2-m: 40px;
+$sflb-font-weight-h2-m-light: $sflb-font-weight-light;
+$sflb-font-weight-h2-m-book: 450;
+$sflb-letter-spacing-h2-m: '';
 
-$sflb-font-size-header2-l: '';
-$sflb-line-height-header2-l: '';
-$sflb-font-weight-header2-l-light: $sflb-font-weight-light;
-$sflb-font-weight-header2-l-book: 450;
-$sflb-letter-spacing-header2-l: '';
+$sflb-font-size-h2-l: '';
+$sflb-line-height-h2-l: '';
+$sflb-font-weight-h2-l-light: $sflb-font-weight-light;
+$sflb-font-weight-h2-l-book: 450;
+$sflb-letter-spacing-h2-l: '';
 
-$sflb-font-size-header2-xl: 38px;
-$sflb-line-height-header2-xl: 40px;
-$sflb-font-weight-header2-xl-light: $sflb-font-weight-light;
-$sflb-font-weight-header2-xl-book: 450;
-$sflb-letter-spacing-header2-xl: '';
+$sflb-font-size-h2-xl: 38px;
+$sflb-line-height-h2-xl: 40px;
+$sflb-font-weight-h2-xl-light: $sflb-font-weight-light;
+$sflb-font-weight-h2-xl-book: 450;
+$sflb-letter-spacing-h2-xl: '';
 
 // Header3
-$sflb-font-size-header3-s: 22px;
-$sflb-line-height-header3-s: 26px;
-$sflb-font-weight-header3-s: $sflb-font-weight-medium;
-$sflb-letter-spacing-header3-s: '';
+$sflb-font-size-h3-s: 22px;
+$sflb-line-height-h3-s: 26px;
+$sflb-font-weight-h3-s: $sflb-font-weight-medium;
+$sflb-letter-spacing-h3-s: '';
 
-$sflb-font-size-header3-m: 24px;
-$sflb-line-height-header3-m: 28px;
-$sflb-font-weight-header3-m: $sflb-font-weight-medium;
-$sflb-letter-spacing-header3-m: '';
+$sflb-font-size-h3-m: 24px;
+$sflb-line-height-h3-m: 28px;
+$sflb-font-weight-h3-m: $sflb-font-weight-medium;
+$sflb-letter-spacing-h3-m: '';
 
-$sflb-font-size-header3-l: '';
-$sflb-line-height-header3-l: '';
-$sflb-font-weight-header3-l: $sflb-font-weight-medium;
-$sflb-letter-spacing-header3-l: '';
+$sflb-font-size-h3-l: '';
+$sflb-line-height-h3-l: '';
+$sflb-font-weight-h3-l: $sflb-font-weight-medium;
+$sflb-letter-spacing-h3-l: '';
 
-$sflb-font-size-header3-xl: 26px;
-$sflb-line-height-header3-xl: 28px;
-$sflb-font-weight-header3-xl-light: $sflb-font-weight-light;
-$sflb-font-weight-header3-xl-regular: $sflb-font-weight-normal;
-$sflb-font-weight-header3-xl-medium: $sflb-font-weight-medium;
-$sflb-letter-spacing-header3-xl: '';
+$sflb-font-size-h3-xl: 26px;
+$sflb-line-height-h3-xl: 28px;
+$sflb-font-weight-h3-xl-light: $sflb-font-weight-light;
+$sflb-font-weight-h3-xl-regular: $sflb-font-weight-normal;
+$sflb-font-weight-h3-xl-medium: $sflb-font-weight-medium;
+$sflb-letter-spacing-h3-xl: '';
 
 // Header4
-$sflb-font-size-header4-s: 20px;
-$sflb-line-height-header4-s: 24px;
-$sflb-font-weight-header4-s: $sflb-font-weight-medium;
-$sflb-letter-spacing-header4-s: '';
+$sflb-font-size-h4-s: 20px;
+$sflb-line-height-h4-s: 24px;
+$sflb-font-weight-h4-s: $sflb-font-weight-medium;
+$sflb-letter-spacing-h4-s: '';
 
-$sflb-font-size-header4-m: 22px;
-$sflb-line-height-header4-m: 24px;
-$sflb-font-weight-header4-m-light: $sflb-font-weight-light;
-$sflb-font-weight-header4-m-regular: $sflb-font-weight-normal;
-$sflb-font-weight-header4-m-medium: $sflb-font-weight-medium;
-$sflb-letter-spacing-header4-m: '';
+$sflb-font-size-h4-m: 22px;
+$sflb-line-height-h4-m: 24px;
+$sflb-font-weight-h4-m-light: $sflb-font-weight-light;
+$sflb-font-weight-h4-m-regular: $sflb-font-weight-normal;
+$sflb-font-weight-h4-m-medium: $sflb-font-weight-medium;
+$sflb-letter-spacing-h4-m: '';
 
-$sflb-font-size-header4-l: '';
-$sflb-line-height-header4-l: '';
-$sflb-font-weight-header4-l: '';
-$sflb-letter-spacing-header4-l: '';
+$sflb-font-size-h4-l: '';
+$sflb-line-height-h4-l: '';
+$sflb-font-weight-h4-l: '';
+$sflb-letter-spacing-h4-l: '';
 
-$sflb-font-size-header4-xl: 24px;
-$sflb-line-height-header4-xl: 26px;
-$sflb-font-weight-header4-xl-light: $sflb-font-weight-light;
-$sflb-font-weight-header4-xl-regular: $sflb-font-weight-normal;
-$sflb-font-weight-header4-xl-medium: $sflb-font-weight-medium;
-$sflb-letter-spacing-header4-xl: '';
+$sflb-font-size-h4-xl: 24px;
+$sflb-line-height-h4-xl: 26px;
+$sflb-font-weight-h4-xl-light: $sflb-font-weight-light;
+$sflb-font-weight-h4-xl-regular: $sflb-font-weight-normal;
+$sflb-font-weight-h4-xl-medium: $sflb-font-weight-medium;
+$sflb-letter-spacing-h4-xl: '';
 
 // Text
 $sflb-font-size-text-xxs: 10px;
